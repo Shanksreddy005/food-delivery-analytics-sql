@@ -13,16 +13,7 @@ CREATE TABLE restaurants (
     price REAL
 );
 
--- 2. MENU TABLE
--- Represents the menu items offered by the restaurants.
-CREATE TABLE menu (
-    menu_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    restaurant_id INTEGER NOT NULL,
-    item_name TEXT NOT NULL,
-    price REAL NOT NULL,
-    veg_or_nonveg TEXT,
-    FOREIGN KEY (restaurant_id) REFERENCES restaurants(restaurant_id)
-);
+
 
 -- 3. CUSTOMERS TABLE
 -- Represents the customers registered on the platform.

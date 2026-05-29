@@ -84,7 +84,7 @@ def load_all_data():
 
     # 4. Validate row counts after loading
     print("\n--- ROW COUNT VALIDATION ---")
-    tables = ['restaurants', 'menu', 'customers', 'delivery_partners', 'promotions', 'orders', 'order_items', 'delivery_tracking', 'reviews']
+    tables = ['restaurants', 'customers', 'delivery_partners', 'promotions', 'orders', 'order_items', 'delivery_tracking', 'reviews']
     for t in tables:
         cursor.execute(f"SELECT COUNT(*) FROM {t}")
         count = cursor.fetchone()[0]

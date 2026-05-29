@@ -157,8 +157,12 @@ food-delivery-sql-analysis/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Shanksreddy005/food-delivery-sql-analysis.git
-cd food-delivery-sql-analysis
+```bash
+# Clone the Repository
+git clone https://github.com/Shanksreddy005/food-delivery-analytics-sql.git
+cd food-delivery-analytics-sql
+```
+```
 ```
 
 ### 2. Install Python Dependencies
@@ -267,7 +271,10 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 ![Delivery Time Heatmap](visualizations/chart3_delivery_heatmap.png)
 ![Partner Performance](visualizations/chart8_partner_scatter.png)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c94b07b (Fix: removed menu table, updated README clone URL, added visualizations, .gitignore)
 | Chart | Insight |
 |---|---|
 | Monthly Revenue Trend | Steady GMV growth with annual seasonal peaks |
