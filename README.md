@@ -1,6 +1,8 @@
 # 🍔 Food Delivery Platform — SQL Analytics Portfolio Project
 
-> **End-to-end SQL analytics project on a real Swiggy restaurant dataset enriched with 500K+ synthetic transactions — built to demonstrate production-grade data analysis skills for Data Analyst roles at Indian tech companies and startups.**
+> End-to-end SQL analytics project analyzing 2M+ records across a 
+> 9-table food delivery platform database — covering revenue analysis, 
+> customer segmentation, churn prediction, and delivery operations.
 
 ---
 
@@ -265,7 +267,6 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 ![Delivery Time Heatmap](visualizations/chart3_delivery_heatmap.png)
 ![Partner Performance](visualizations/chart8_partner_scatter.png)
 
-## 📈 Visualizations Preview
 
 | Chart | Insight |
 |---|---|
