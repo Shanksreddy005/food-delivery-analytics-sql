@@ -157,7 +157,6 @@ food-delivery-analytics-sql/
 
 ### 1. Clone the Repository
 ```bash
-```bash
 # Clone the Repository
 git clone https://github.com/Shanksreddy005/food-delivery-analytics-sql.git
 cd food-delivery-analytics-sql
