@@ -162,8 +162,6 @@ food-delivery-analytics-sql/
 git clone https://github.com/Shanksreddy005/food-delivery-analytics-sql.git
 cd food-delivery-analytics-sql
 ```
-```
-```
 
 ### 2. Install Python Dependencies
 ```bash
