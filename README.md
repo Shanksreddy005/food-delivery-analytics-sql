@@ -1,14 +1,12 @@
 # 🍔 Food Delivery Platform — SQL Analytics Portfolio Project
 
-> End-to-end SQL analytics project analyzing 2M+ records across a 
-> 9-table food delivery platform database — covering revenue analysis, 
+> End-to-end SQL analytics project analyzing 2M+ records across a
+> 9-table food delivery platform database — covering revenue analysis,
 > customer segmentation, churn prediction, and delivery operations.
 
 ---
 
 ## 📊 Key Business Findings
-
-Derived from running all 10 SQL analysis modules against the `food_delivery.db` database:
 
 - 🏆 **Platform GMV reached INR 333.2M** across **425,644 delivered orders** over a 2-year period (2022–2024), with a steady month-over-month growth rate of ~4–6%.
 - 📍 **Kolkata leads all cities with INR 52.8M in revenue**, followed by Mumbai (INR 47.6M) and Chennai (INR 45.2M) — together accounting for **~44% of total platform GMV**.
@@ -75,6 +73,7 @@ The project uses a **9-table relational schema** built in SQLite:
 ```
 
 ### Schema Statistics
+
 | Table | Rows | Description |
 |---|---|---|
 | `restaurants` | 8,680 | Real Swiggy restaurant data from Kaggle |
@@ -85,14 +84,14 @@ The project uses a **9-table relational schema** built in SQLite:
 | `order_items` | ~1.25M | Line items within each order |
 | `delivery_tracking` | 425,644 | Tracking data for delivered orders |
 | `reviews` | 255,386 | Customer ratings and feedback |
-| `menu` | 8,680 | Menu items extracted from Swiggy restaurant data |
+| `menu` | ~2,000 | Synthetic menu items per restaurant |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-food-delivery-sql-analysis/
+food-delivery-analytics-sql/
 │
 ├── README.md                            ← You are here
 │
@@ -106,7 +105,8 @@ food-delivery-sql-analysis/
 │       ├── delivery_partners.csv        ← 2,000 delivery partners
 │       ├── delivery_tracking.csv        ← 425K tracking records
 │       ├── promotions.csv               ← 50 promotional codes
-│       └── reviews.csv                  ← 255K customer reviews
+│       ├── reviews.csv                  ← 255K customer reviews
+│       └── menu.csv                     ← Synthetic menu items per restaurant
 │
 ├── schema/
 │   └── create_tables.sql                ← All 9 CREATE TABLE + 11 indexes
@@ -253,7 +253,7 @@ jupyter notebook visualizations/analysis.ipynb
 Based on the SQL analysis findings, here are 4 high-priority, data-backed recommendations:
 
 **1. Launch a "Volume-Quality Recovery Programme" for Platinum-Volume Restaurants**
-The 10 high-volume restaurants with ratings below 3.5 are at a critical risk of customer trust erosion. Proactive measures — including mandatory food quality audits, packaging reviews, and dashboards surfacing low-rating feedback to restaurant ops teams — can protect GMV without reducing order volume.
+The 10 high-volume restaurants with ratings below 3.5 are at critical risk of customer trust erosion. Proactive measures — including mandatory food quality audits, packaging reviews, and dashboards surfacing low-rating feedback to restaurant ops teams — can protect GMV without reducing order volume.
 
 **2. Deploy Real-Time Fleet Surge Alerts During Peak Hours**
 Orders between 7 PM–10 PM on weekends show delivery time spikes of up to 30%. Proactively alerting delivery partners 45 minutes before predicted demand peaks and incentivising early logins during high-demand periods can close the on-time delivery gap from 85.5% to above 90%.
@@ -271,10 +271,6 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 ![Delivery Time Heatmap](visualizations/chart3_delivery_heatmap.png)
 ![Partner Performance](visualizations/chart8_partner_scatter.png)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> c94b07b (Fix: removed menu table, updated README clone URL, added visualizations, .gitignore)
 | Chart | Insight |
 |---|---|
 | Monthly Revenue Trend | Steady GMV growth with annual seasonal peaks |
@@ -287,7 +283,6 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 | Partner Performance | Top 10% partners are 2x more efficient than bottom 10% |
 
 ---
-
 ## 👤 Author
 
 **Palagiri Shashank Reddy**
