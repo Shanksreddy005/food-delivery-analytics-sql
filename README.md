@@ -83,7 +83,7 @@ The project uses a **9-table relational schema** built in SQLite:
 | `order_items` | ~1.25M | Line items within each order |
 | `delivery_tracking` | 425,644 | Tracking data for delivered orders |
 | `reviews` | 255,386 | Customer ratings and feedback |
-| `menu` | 0 | Schema ready (menu CSV not present) |
+| `menu` | 8,680 | Menu items extracted from Swiggy restaurant data |
 
 ---
 
@@ -155,7 +155,7 @@ food-delivery-sql-analysis/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/food-delivery-sql-analysis.git
+git clone https://github.com/Shanksreddy005/food-delivery-sql-analysis.git
 cd food-delivery-sql-analysis
 ```
 
@@ -259,6 +259,11 @@ Customers showing churn signals (last order rating < 3.5, 60+ days inactive) res
 Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per capita than Bangalore or Mumbai. This city is structurally under-served relative to its demand — increasing restaurant onboarding and delivery partner recruitment here represents the highest ROI geographic expansion opportunity.
 
 ---
+## 📈 Visualizations Preview
+
+![Monthly Revenue Trend](visualizations/chart1_monthly_revenue.png)
+![Delivery Time Heatmap](visualizations/chart3_delivery_heatmap.png)
+![Partner Performance](visualizations/chart8_partner_scatter.png)
 
 ## 📈 Visualizations Preview
 
@@ -275,6 +280,14 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 
 ---
 
+## 👤 Author
+
+**Palagiri Shashank Reddy**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/shashank-reddy-147227260/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/Shanksreddy005)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?logo=kaggle)](https://kaggle.com/shashankreddy123987)
+
 ---
 
-*Dataset Source: [Swiggy Restaurants Dataset — Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/abhijitdahatonde/swiggy-restuarant-dataset))*
+*Dataset Source: [Swiggy Restaurants Dataset — Kaggle](https://www.kaggle.com/datasets/abhijitdahatonde/swiggy-restuarant-dataset)*
