@@ -1,6 +1,6 @@
 # 🍔 Food Delivery Platform — SQL Analytics Portfolio Project
 
-> End-to-end SQL analytics project analyzing 2M+ records across a
+> End-to-end SQL analytics project analyzing 2.5M+ records across a
 > 9-table food delivery platform database — covering revenue analysis,
 > customer segmentation, churn prediction, and delivery operations.
 
@@ -84,7 +84,7 @@ The project uses a **9-table relational schema** built in SQLite:
 | `order_items` | ~1.25M | Line items within each order |
 | `delivery_tracking` | 425,644 | Tracking data for delivered orders |
 | `reviews` | 255,386 | Customer ratings and feedback |
-| `menu` | ~2,000 | Synthetic menu items per restaurant |
+| `menu` |  65,179 |  Synthetic menu items mapped to restaurant cuisine types |
 
 ---
 
@@ -106,13 +106,14 @@ food-delivery-analytics-sql/
 │       ├── delivery_tracking.csv        ← 425K tracking records
 │       ├── promotions.csv               ← 50 promotional codes
 │       ├── reviews.csv                  ← 255K customer reviews
-│       └── menu.csv                     ← Synthetic menu items per restaurant
+│       └── menu.csv                     ← 65,179 menu items across 7 cuisine categories
 │
 ├── schema/
 │   └── create_tables.sql                ← All 9 CREATE TABLE + 11 indexes
 │
 ├── data_generation/
-│   └── generate_data.py                 ← Python synthetic data generator
+│   ├── generate_data.py                 ← Python synthetic data generator
+│   └── generate_menu.py                 ← Cuisine-matched menu item generator
 │
 ├── load_data.py                         ← CSV → SQLite loader with validations
 ├── build_notebook.py                    ← Chart + notebook generator script
