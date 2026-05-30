@@ -1,21 +1,27 @@
 # 🍔 Food Delivery Platform — SQL Analytics Portfolio Project
 
 > End-to-end SQL analytics project analyzing 2.5M+ records across a
-> 9-table food delivery platform database — covering revenue analysis,
-> customer segmentation, churn prediction, and delivery operations.
+> 9-table food delivery platform database using SQL, Python, and business intelligence techniques.
 
 ---
 
 ## 📊 Key Business Findings
 
-- 🏆 **Platform GMV reached INR 333.2M** across **425,644 delivered orders** over a 2-year period (2022–2024), with a steady month-over-month growth rate of ~4–6%.
-- 📍 **Kolkata leads all cities with INR 52.8M in revenue**, followed by Mumbai (INR 47.6M) and Chennai (INR 45.2M) — together accounting for **~44% of total platform GMV**.
-- ⚡ **85.5% of all orders were delivered on time** (above the industry benchmark of 75%), with no city falling below 80%, highlighting robust last-mile logistics.
-- 🎯 **Top 25% of restaurants (Platinum tier) drive over 60% of revenue** — yet a critical subset of high-volume restaurants maintain ratings below 3.5, revealing a quality-volume tension requiring immediate action.
-- 🔄 **Promo-acquired customers show a 57.5% repeat order rate within 90 days** vs 41% for non-promo customers, proving discounts are an effective long-term acquisition channel, not just one-off spend drivers.
-- 🕐 **Twin daily demand peaks at 12–2 PM (lunch) and 7–10 PM (dinner)** account for over 55% of all daily order volume — weekend spikes are ~38% higher than weekday averages.
-- 📉 **Churned customers show distinct leading signals**: their final order delivery time averaged 30% longer than active customers, and their last recorded rating was 3.2 vs 4.1 for retained users.
-- 🏍️ **Top 10% delivery partners maintain 88%+ on-time rates** and 18-minute average delivery times — vs 28+ minutes for the bottom 10% — a performance gap that directly impacts customer satisfaction scores.
+- 🏆 **Platform GMV exceeded INR 337M** across **425,313 delivered orders** over a two-year period, demonstrating sustained platform activity and growth.
+
+- 📍 **Kolkata generated the highest revenue at INR 53.7M**, followed by Mumbai (INR 48.2M) and Chennai (INR 46.0M), making these cities the strongest contributors to platform GMV.
+
+- ⚡ **85.55% of all deliveries were completed on time**, indicating strong operational performance across the delivery network.
+
+- 🎯 **The highest revenue restaurant quartile generated approximately 37% of total platform GMV**, highlighting revenue concentration among a relatively small group of merchants.
+
+- 🔄 **Customers who used promotions exhibited slightly higher repeat purchasing behavior (99.9% vs 98.7%)**, suggesting promotions contribute positively to retention.
+
+- 🕐 **Peak-hour deliveries (7 PM–10 PM) required approximately 9% more delivery time** than non-peak deliveries, identifying a measurable operational bottleneck.
+
+- 👥 **More than 42,000 customers fall into the Low-Risk segment**, while approximately 7,000 customers require retention attention, providing a clear framework for churn management.
+
+- 🏍️ **Top-performing delivery partners consistently maintained on-time rates above 91%**, demonstrating significant operational differences between delivery personnel.
 
 ---
 
@@ -254,7 +260,7 @@ Based on the SQL analysis findings, here are 4 high-priority, data-backed recomm
 The 10 high-volume restaurants with ratings below 3.5 are at critical risk of customer trust erosion. Proactive measures — including mandatory food quality audits, packaging reviews, and dashboards surfacing low-rating feedback to restaurant ops teams — can protect GMV without reducing order volume.
 
 **2. Deploy Real-Time Fleet Surge Alerts During Peak Hours**
-Orders between 7 PM–10 PM on weekends show delivery time spikes of up to 30%. Proactively alerting delivery partners 45 minutes before predicted demand peaks and incentivising early logins during high-demand periods can close the on-time delivery gap from 85.5% to above 90%.
+Orders during 7 PM–10 PM peak periods experience approximately 9% longer delivery times than non-peak periods. Expanding partner availability and dynamic surge planning during these windows can improve delivery performance and customer satisfaction.
 
 **3. Build a Promo Re-engagement Funnel for At-Risk Customers**
 Customers showing churn signals (last order rating < 3.5, 60+ days inactive) respond significantly better to discount nudges than cold-inactive accounts. A targeted re-engagement promotion within the 30–60 day window — before customers permanently churn — can recover an estimated 12–15% of at-risk GMV.
