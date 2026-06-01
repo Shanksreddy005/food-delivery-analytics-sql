@@ -296,7 +296,5 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?logo=kaggle)](https://kaggle.com/shashankreddy123987)
 
 ---
-
-*Dataset Source: [Swiggy Restaurants Dataset — Kaggle](https://www.kaggle.com/datasets/abhijitdahatonde/swiggy-restuarant-dataset)*
 ## 📊 Interactive Tableau Dashboard
 [Dashboard](https://public.tableau.com/app/profile/shashank.reddy4125/viz/FoodDeliveryPlatformAnalyticsDashboard/ExecutiveOverview)
