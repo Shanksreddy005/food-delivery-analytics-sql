@@ -28,6 +28,41 @@ Key outcomes included:
 - 85.55% on-time delivery rate
 - Identification of high-risk churn segments
 - Operational bottlenecks during peak delivery periods
+
+---
+## 📌 Data Sources
+
+This project combines real-world and synthetic data to simulate a production-scale food delivery platform.
+
+### Real Dataset
+
+The restaurant master data was sourced from a public Swiggy restaurant dataset available on Kaggle.
+
+Dataset fields used include:
+
+- Restaurant Name
+- City
+- Area
+- Cuisine Type
+- Ratings
+- Price Range
+- Delivery Time
+
+This dataset provided 8,680 real restaurant records across multiple Indian cities.
+
+### Synthetic Data Generation
+
+To enable realistic business analytics, additional datasets were generated using Python, including:
+
+- 50,000 Customers
+- 500,000 Orders
+- 1.25M Order Items
+- Delivery Tracking Data
+- Reviews
+- Promotions
+- Menu Catalogs
+
+The synthetic data was generated with realistic business relationships, seasonality patterns, customer behavior distributions, and operational constraints to simulate a large-scale food delivery platform.
 ---
 ## 📊 Executive Dashboard
 
