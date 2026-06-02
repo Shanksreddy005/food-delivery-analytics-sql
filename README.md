@@ -1,4 +1,9 @@
 # 🍔 Food Delivery Platform — SQL Analytics Portfolio Project
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
+![Records](https://img.shields.io/badge/Data-2.5M%2B-orange)
+![Orders](https://img.shields.io/badge/Orders-500K%2B-red)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-purple)
 
 > End-to-end SQL analytics project analyzing 2.5M+ records across a
 > 9-table food delivery platform database using SQL, Python, Tableau,
@@ -15,7 +20,14 @@ Using SQL, Python, and Tableau, the project analyzed 500K+ orders to answer crit
 - Churn Risk
 - Delivery Performance
 - Promotion Effectiveness
+  
+Key outcomes included:
 
+- ₹337M GMV analyzed
+- 425K delivered orders
+- 85.55% on-time delivery rate
+- Identification of high-risk churn segments
+- Operational bottlenecks during peak delivery periods
 ---
 ## 📊 Executive Dashboard
 
@@ -35,7 +47,34 @@ Using SQL, Python, and Tableau, the project analyzed 500K+ orders to answer crit
 - Delivery Performance
 - MoM Revenue Growth
 ---
+## 🎯 Business Questions Answered
 
+This project was designed to answer key business questions commonly faced by food delivery platforms:
+
+### Revenue & Growth
+
+- Which cities generate the highest revenue?
+- How is revenue trending month-over-month?
+- Which restaurants contribute most to GMV?
+
+### Customer Analytics
+
+- Which customers are likely to churn?
+- Which customer segments generate the highest value?
+- Do promotions improve retention?
+
+### Operations
+
+- Are deliveries meeting promised timelines?
+- What happens during peak delivery hours?
+- Which delivery partners perform best?
+
+### Strategy
+
+- Which cities deserve further expansion?
+- Where should operational investments be made?
+- Which customer segments should receive retention campaigns?
+---
 ## 📊 Key Business Findings
 
 - 🏆 **Platform GMV exceeded INR 337M** across **425,313 delivered orders** over a two-year period, demonstrating sustained platform activity and growth.
@@ -55,7 +94,9 @@ Using SQL, Python, and Tableau, the project analyzed 500K+ orders to answer crit
 - 🏍️ **Top-performing delivery partners consistently maintained on-time rates above 91%**, demonstrating significant operational differences between delivery personnel.
 
 ---
-
+## 📊 Interactive Tableau Dashboard
+[Dashboard](https://public.tableau.com/app/profile/shashank.reddy4125/viz/FoodDeliveryPlatformAnalyticsDashboard/ExecutiveOverview)
+---
 ## 🗄️ Database Schema
 
 The project uses a **9-table relational schema** built in SQLite:
@@ -318,6 +359,20 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 | Partner Performance | Top 10% partners are 2x more efficient than bottom 10% |
 
 ---
+## 🚀 Why This Project Matters
+
+This project demonstrates the complete analytics workflow expected from modern Data Analysts and Business Analysts:
+
+- Database Design
+- SQL Analytics
+- Customer Segmentation
+- Churn Analysis
+- KPI Tracking
+- Dashboard Development
+- Business Recommendation Generation
+
+The project focuses on translating raw data into actionable business decisions, mirroring real-world analytics challenges faced by companies such as Swiggy, Zomato, Uber Eats, and DoorDash.
+---
 ## 👤 Author
 
 **Palagiri Shashank Reddy**
@@ -327,5 +382,3 @@ Kolkata leads all cities at INR 52.8M GMV despite having fewer restaurants per c
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?logo=kaggle)](https://kaggle.com/shashankreddy123987)
 
 ---
-## 📊 Interactive Tableau Dashboard
-[Dashboard](https://public.tableau.com/app/profile/shashank.reddy4125/viz/FoodDeliveryPlatformAnalyticsDashboard/ExecutiveOverview)
