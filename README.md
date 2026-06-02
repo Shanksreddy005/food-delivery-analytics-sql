@@ -1,8 +1,39 @@
 # 🍔 Food Delivery Platform — SQL Analytics Portfolio Project
 
 > End-to-end SQL analytics project analyzing 2.5M+ records across a
-> 9-table food delivery platform database using SQL, Python, and business intelligence techniques.
+> 9-table food delivery platform database using SQL, Python, Tableau,
+> and business intelligence techniques.
+---
+## Executive Summary
 
+Built an end-to-end analytics platform simulating a large-scale food delivery company using a 9-table relational database containing 2.5M+ records.
+
+Using SQL, Python, and Tableau, the project analyzed 500K+ orders to answer critical business questions around:
+
+- Revenue Growth
+- Customer Retention
+- Churn Risk
+- Delivery Performance
+- Promotion Effectiveness
+
+---
+## 📊 Executive Dashboard
+
+### Tableau Dashboard Overview
+
+![Food Delivery Dashboard](visualizations/tableau_dashboard.png)
+
+**Dashboard Highlights**
+
+- ₹337M Gross Merchandise Value (GMV)
+- 425K Delivered Orders
+- 85.55% On-Time Delivery Rate
+- 9 Cities Served
+- Revenue Trends
+- Churn Segmentation
+- RFM Analysis
+- Delivery Performance
+- MoM Revenue Growth
 ---
 
 ## 📊 Key Business Findings
