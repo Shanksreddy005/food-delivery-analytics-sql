@@ -4,6 +4,7 @@
 ![Records](https://img.shields.io/badge/Data-2.5M%2B-orange)
 ![Orders](https://img.shields.io/badge/Orders-500K%2B-red)
 ![Tableau](https://img.shields.io/badge/Tableau-Dashboard-purple)
+[![Case Study](https://img.shields.io/badge/Case%20Study-PDF-1D9E75)](./FoodDelivery_CaseStudy.pdf)
 
 > End-to-end SQL analytics project analyzing 2.5M+ records across a
 > 9-table food delivery platform database using SQL, Python, Tableau,
